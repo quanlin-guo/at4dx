@@ -2,21 +2,31 @@
   "packageDirectories": [
     {
       "path": "sfdx-source/core",
-      "default": true
-    },
-    {
+      "default": true,
+      "package": "AT4DX",
       "versionName": "ver 0.1",
       "versionNumber": "0.1.0.NEXT",
-      "path": "sfdx-source/force-di",
-      "default": false,
-      "package": "AT4D",
-      "versionDescription": ""
+      "versionDescription": "",
+      "dependencies": [
+        {
+          "package": "FFLib Apex Mocks@0.1.0-1"
+        },
+        {
+          "package": "FFLib Apex Common@0.1.0-1"
+        },
+        {
+          "package": "Force DI@0.1.0-1"
+        }
+      ]
     }
   ],
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "63.0",
   "packageAliases": {
-    "AT4D": "0HogK00000001VZSAY"
+    "FFLib Apex Mocks@0.1.0-1": "04tgK00000009bBQAQ",
+    "FFLib Apex Common@0.1.0-1": "04tgK00000009ePQAQ",
+    "Force DI@0.1.0-1": "04tgK00000009g1QAA",
+    "AT4DX": "0HogK00000001XBSAY"
   }
 }
