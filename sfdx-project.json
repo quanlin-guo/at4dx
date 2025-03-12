@@ -3,9 +3,20 @@
     {
       "path": "sfdx-source/core",
       "default": true
+    },
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "sfdx-source/force-di",
+      "default": false,
+      "package": "AT4D",
+      "versionDescription": ""
     }
   ],
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "63.0"
+  "sourceApiVersion": "63.0",
+  "packageAliases": {
+    "AT4D": "0HogK00000001VZSAY"
+  }
 }
